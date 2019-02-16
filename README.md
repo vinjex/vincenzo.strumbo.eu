@@ -1,5 +1,7 @@
 # vincenzo.strumbo.eu
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ea5d3dc6-ce68-4c44-9b53-a1d2c9f3c27c/deploy-status)](https://app.netlify.com/sites/stupefied-mcnulty-69b3cc/deploys)
+___
 ### Prerequisites
 #### Install required Node packages
     $ npm i
