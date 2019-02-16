@@ -1,0 +1,14 @@
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+#particlesjs-wrapper {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+
+#wrapper {
+  overflow: hidden;
+}
