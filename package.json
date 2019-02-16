@@ -1,0 +1,24 @@
+{
+  "name": "vincenzo.strumbo.eu",
+  "version": "1.0.0",
+  "description": "vincenzo.strumbo.eu",
+  "main": "",
+  "scripts": {
+    "serve": "npx eleventy --serve",
+    "build": "npx eleventy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinjex/vincenzo.strumbo.eu.git"
+  },
+  "author": "Vincenzo Strumbo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinjex/vincenzo.strumbo.eu/issues"
+  },
+  "homepage": "https://github.com/vinjex/vincenzo.strumbo.eu#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.7.1"
+  }
+}

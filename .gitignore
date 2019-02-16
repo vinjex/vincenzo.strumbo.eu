@@ -1,2 +1,5 @@
 # Generate website path
-/dist/*
+dist
+
+# Node modules
+node_modules

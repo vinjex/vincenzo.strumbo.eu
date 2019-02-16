@@ -1,16 +1,16 @@
 # vincenzo.strumbo.eu
 
-### Requirements
-#### Eleventy
-    $ npm install -g @11ty/eleventy
+### Prerequisites
+#### Install required Node packages
+    $ npm i
 ___
 ### Developing
     # Serve and watches for files modification
-    $ eleventy --serve --port=8081
+    $ npm run-script serve
 ___
 ### Building
     # Production code will be saved to dist/
-    $ eleventy
+    $ npm run-script build
 ___
 #### Credits:
 * ##### Template - [Massively by HTML5 UP](https://html5up.net)
