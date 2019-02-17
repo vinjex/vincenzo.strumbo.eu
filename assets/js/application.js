@@ -29,7 +29,7 @@ require('./vendor/main');
 
 // Application level code
 $(document).ready(() => {
-  particlesJS.load('particlesjs-wrapper', '/app/assets/data/particlesjs-config.json', () => {
+  particlesJS.load('particlesjs-wrapper', '/assets/data/particlesjs-config.json', () => {
     console.log('ParticleJS loaded!')
   });
 });
