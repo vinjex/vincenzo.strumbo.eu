@@ -4,7 +4,7 @@
   "description": "vincenzo.strumbo.eu",
   "private": true,
   "scripts": {
-    "serve": "eleventy --serve",
+    "serve": "webpack --config webpack.config.dev.js & eleventy --serve",
     "build": "webpack && eleventy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
