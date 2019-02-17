@@ -26,10 +26,15 @@ require('particles.js');
 // Vendor
 require('./vendor/util');
 require('./vendor/main');
+require('./components/timeline');
 
 // Application level code
 $(document).ready(() => {
+  loadParticles()
+});
+
+function loadParticles() {
   particlesJS.load('particlesjs-wrapper', '/assets/data/particlesjs-config.json', () => {
     console.log('ParticleJS loaded!')
   });
-});
+}

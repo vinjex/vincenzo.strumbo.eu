@@ -1,3 +1,8 @@
+@import 'vendor/bootstrap.min.css';
+@import 'vendor/bootstrap-grid.min.css';
+@import 'components/timeline.css';
+@import "vendor/main.css";
+
 canvas {
   display: block;
   vertical-align: bottom;
@@ -7,4 +12,15 @@ canvas {
   position: fixed;
   width: 100vw;
   height: 100vh;
+}
+
+.middle-container {
+  display: table;
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 3em;
 }
