@@ -14,13 +14,7 @@ canvas {
   height: 100vh;
 }
 
-.middle-container {
-  display: table;
-}
-
-.middle {
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
-  font-size: 3em;
+.centered {
+  display: block;
+  margin: auto;
 }
